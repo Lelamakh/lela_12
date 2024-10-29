@@ -60,23 +60,26 @@ nav a {
 .couple {
   display: flex;
   margin-top: 50px;
-  gap: 100px;
   gap: 20px;
 }
 .part1 {
   background-color: #f8f8f8;
   width: 395px;
-  height: 751px;
+  margin: 0 auto;
   top: 131px;
   left: 140px;
   border-radius: 24px;
-  padding: 32px 32px 32px 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 38px;
 }
 
 h5 {
-  margin-bottom: 15px;
-  margin-top: 20px;
+  margin-bottom: 13px;
+  margin-top: 32px;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 select {
   width: 100%;
@@ -84,19 +87,31 @@ select {
   height: 48px;
   border: 1px solid #0d9ca436;
 }
+input[type="checkbox"] {
+  accent-color: green;
+}
 label {
   display: block;
   font-size: 14px;
   line-height: 21px;
   text-align: left;
   color: black;
-}
-input [type="checkbox"] {
-  accent-color: green;
+  font-weight: 400;
 }
 
-.part2 img {
+.background {
+  background-image: url("src/images/Rectangle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   max-width: 1225px;
-  height: 751px;
+  height: auto;
+  position: relative;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
 }
