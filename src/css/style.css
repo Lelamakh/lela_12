@@ -287,6 +287,7 @@ footer h6 {
   font-size: 14px;
   font-weight: 400;
 }
+
 @media (width < 768px) {
   .container {
     max-width: 335px;
@@ -308,5 +309,78 @@ footer h6 {
   }
   footer li {
     gap: 18px;
+  }
+  .background {
+    width: 100%;
+    max-width: 335px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .part2 {
+    order: -1;
+  }
+
+  .content {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 32px;
+  }
+  .content h1 {
+    font-size: 24px;
+    display: flex;
+    width: 241px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    margin: auto;
+  }
+  .content p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #000000cc;
+  }
+  .searchbox {
+    display: none;
+  }
+  input {
+    padding: 13px 242px 14px 24px;
+    border: none;
+  }
+  button {
+    border: none;
+  }
+  .loop {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    background-color: #f8f8f8cc;
+    opacity: 50%;
+    margin-right: 15px;
+  }
+  .additional {
+    width: 18px;
+    height: 18px;
+  }
+
+  .additional-navigation {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-sizing: border-box;
+  }
+  section span {
+    justify-content: center;
+    gap: 4px;
   }
 }
