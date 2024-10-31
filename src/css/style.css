@@ -243,7 +243,22 @@ footer {
   margin-bottom: 100px;
   padding: 32px 10px 42px 10px;
   border-radius: 20px;
+  color: white;
 }
+footer ul {
+  display: flex;
+  gap: 48px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footerwrap {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
 .footerline {
   width: 1640px;
   height: 1px;
@@ -252,4 +267,16 @@ footer {
   gap: 0px;
   border-radius: 40px 0px 0px 0px;
   opacity: 0px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 14px;
+}
+footer h6 {
+  font-size: 14px;
+  font-weight: 400;
 }
