@@ -287,6 +287,14 @@ footer h6 {
   font-size: 14px;
   font-weight: 400;
 }
+@media (width > 768px) {
+  .additional {
+    display: none;
+  }
+  .additional-navigation {
+    display: none;
+  }
+}
 
 @media (width < 768px) {
   .container {
