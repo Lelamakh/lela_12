@@ -19,7 +19,7 @@
     <header>
       <div class="container">
         <div class="wrapper">
-          <a href="#" class="logo">
+          <a href="index.html" class="logo">
             <img src="src/images/apartment (1) 1.png" alt="apartment (1) 1" />
           </a>
           <nav>
@@ -119,10 +119,18 @@
           <div class="background">
             <img src="src/images/Rectangle.png" alt="Rectangle" />
             <div class="content">
-              <h1>lalalalend</h1>
-              <p>
-                sjhdvccwdjbwedbewndmkoecxchchchchchchchchhchchhchchchchhchchch
-              </p>
+              <h1>Find the house you want easily</h1>
+              <p>Buy, sell, rent or lease on just one platform</p>
+
+              <!-- search-button -->
+              <div class="searchbox">
+                <input type="text" id="searchInput" placeholder="search" />
+                <button onclick="performSearch()">
+                  <div class="loop">
+                    <img src="src/images/Frame (1).png" alt="Frame" />
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -131,9 +139,38 @@
     <div class="container">
       <h2>Trending ads</h2>
       <div class="allarticles">
+        <!-- article1 -->
         <article>
           <div class="images-parent">
-            <img src="src/images/Rectangle 541.png" alt="Rectangle 541" />
+            <a href="internal.html">
+              <img src="src/images/Rectangle 541.png" alt="Rectangle 541" />
+            </a>
+            <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
+            <img src="src/images/Frame.png" alt="Frame" class="fram" />
+          </div>
+
+          <div class="parcel">200 Acres Parcel for Sale in Namanga</div>
+          <div class="namanga">Kajiado, Namanga</div>
+          <div class="pricebox">
+            <span class="price">1450$</span>
+            <span class="month">/ Month </span>
+          </div>
+          <div class="line">
+            <img src="src/images/Rectangle 547.png" alt="Rectangle 547" />
+          </div>
+
+          <div class="bedrooms">
+            <div class="five">5 Bedroom</div>
+            <div class="three">3 Bedroom</div>
+            <div class="sqm">450 Sq.m.</div>
+          </div>
+          <!-- article2 -->
+        </article>
+        <article>
+          <div class="images-parent">
+            <a href="internal.html">
+              <img src="src/images/Rectangle 425.png" alt="Rectangle 541" />
+            </a>
             <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
             <img src="src/images/Frame.png" alt="Frame" class="fram" />
           </div>
@@ -154,9 +191,12 @@
             <div class="sqm">450 Sq.m.</div>
           </div>
         </article>
+        <!-- article3 -->
         <article>
           <div class="images-parent">
-            <img src="src/images/Rectangle 425.png" alt="Rectangle 541" />
+            <a href="internal.html">
+              <img src="src/images/Rectangle 431.png" alt="Rectangle 541" />
+            </a>
             <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
             <img src="src/images/Frame.png" alt="Frame" class="fram" />
           </div>
@@ -177,9 +217,12 @@
             <div class="sqm">450 Sq.m.</div>
           </div>
         </article>
+        <!-- article4 -->
         <article>
           <div class="images-parent">
-            <img src="src/images/Rectangle 431.png" alt="Rectangle 541" />
+            <a href="internal.html">
+              <img src="src/images/Rectangle 527.png" alt="Rectangle 541" />
+            </a>
             <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
             <img src="src/images/Frame.png" alt="Frame" class="fram" />
           </div>
@@ -200,9 +243,12 @@
             <div class="sqm">450 Sq.m.</div>
           </div>
         </article>
+        <!-- article5 -->
         <article>
           <div class="images-parent">
-            <img src="src/images/Rectangle 527.png" alt="Rectangle 541" />
+            <a href="internal.html">
+              <img src="src/images/Rectangle 431.png" alt="Rectangle 541" />
+            </a>
             <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
             <img src="src/images/Frame.png" alt="Frame" class="fram" />
           </div>
@@ -223,9 +269,12 @@
             <div class="sqm">450 Sq.m.</div>
           </div>
         </article>
+        <!-- article6 -->
         <article>
           <div class="images-parent">
-            <img src="src/images/Rectangle 431.png" alt="Rectangle 541" />
+            <a href="internal.html">
+              <img src="src/images/Rectangle 425.png" alt="Rectangle 541" />
+            </a>
             <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
             <img src="src/images/Frame.png" alt="Frame" class="fram" />
           </div>
@@ -246,9 +295,12 @@
             <div class="sqm">450 Sq.m.</div>
           </div>
         </article>
+        <!-- article7 -->
         <article>
           <div class="images-parent">
-            <img src="src/images/Rectangle 425.png" alt="Rectangle 541" />
+            <a href="internal.html">
+              <img src="src/images/Rectangle 431.png" alt="Rectangle 541" />
+            </a>
             <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
             <img src="src/images/Frame.png" alt="Frame" class="fram" />
           </div>
@@ -269,32 +321,12 @@
             <div class="sqm">450 Sq.m.</div>
           </div>
         </article>
+        <!-- article8 -->
         <article>
           <div class="images-parent">
-            <img src="src/images/Rectangle 431.png" alt="Rectangle 541" />
-            <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
-            <img src="src/images/Frame.png" alt="Frame" class="fram" />
-          </div>
-
-          <div class="parcel">200 Acres Parcel for Sale in Namanga</div>
-          <div class="namanga">Kajiado, Namanga</div>
-          <div class="pricebox">
-            <span class="price">1450$</span>
-            <span class="month">/ Month </span>
-          </div>
-          <div class="line">
-            <img src="src/images/Rectangle 547.png" alt="Rectangle 547" />
-          </div>
-
-          <div class="bedrooms">
-            <div class="five">5 Bedroom</div>
-            <div class="three">3 Bedroom</div>
-            <div class="sqm">450 Sq.m.</div>
-          </div>
-        </article>
-        <article>
-          <div class="images-parent">
-            <img src="src/images/Rectangle 428.png" alt="Rectangle 541" />
+            <a href="internal.html">
+              <img src="src/images/Rectangle 428.png" alt="Rectangle 541" />
+            </a>
             <img src="src/images/VIP TOP+.png" alt="VIP TOP+" class="vip" />
             <img src="src/images/Frame.png" alt="Frame" class="fram" />
           </div>
