@@ -363,6 +363,7 @@ footer h6 {
   .background {
     width: 100%;
     max-width: 335px;
+    height: 435px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -443,6 +444,10 @@ footer h6 {
   section span {
     justify-content: center;
     gap: 4px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 11px;
   }
   .plus {
     display: flex;
