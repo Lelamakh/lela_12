@@ -40,6 +40,9 @@ header ul {
   align-items: center;
   text-align: center;
   gap: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .button {
   display: flex;
@@ -53,6 +56,9 @@ header ul {
   border-color: white;
   color: white;
   border-style: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav a {
@@ -61,6 +67,8 @@ nav a {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 .couple {
   display: flex;
@@ -86,6 +94,9 @@ h5 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 select {
   width: 100%;
@@ -103,6 +114,9 @@ label {
   text-align: left;
   color: black;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .background {
@@ -128,17 +142,25 @@ label {
 .content h1 {
   font-size: 48px;
   font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 .content p {
   font-size: 16px;
   font-weight: 400;
   margin-top: 10px;
   color: #000000cc;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .searchbox {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 input {
   padding: 13px 242px 14px 24px;
@@ -162,6 +184,9 @@ h2 {
   font-size: 18px;
   font-weight: 500;
   color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .allarticles {
   display: flex;
@@ -173,7 +198,6 @@ h2 {
 article {
   background: #f8f8f8;
   width: 100%;
-
   max-width: 395px;
   border-radius: 24px;
   padding: 16px;
@@ -189,7 +213,9 @@ article {
   width: 100%;
   max-width: 76px;
   padding: 6px 11px 6px 11px;
-
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 12px;
   position: absolute;
 }
@@ -208,12 +234,16 @@ article {
   color: #000000;
   font-size: 16px;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 .namanga {
   opacity: 50%;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 .price {
   font-size: 24px;
@@ -221,6 +251,8 @@ article {
   color: #29b24e;
   font-weight: 400;
   line-height: 36px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 .pricebox {
   display: flex;
@@ -238,6 +270,9 @@ article {
   font-size: 14px;
   font-weight: 400;
   color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .line {
   margin-top: 16px;
@@ -258,6 +293,9 @@ footer ul {
   color: white;
   font-size: 14px;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .footerwrap {
   display: flex;
@@ -282,10 +320,14 @@ footer p {
   align-items: center;
   margin-top: 40px;
   font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 footer h6 {
   font-size: 14px;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 @media (width > 768px) {
   .additional {
@@ -380,15 +422,38 @@ footer h6 {
 
   .additional-navigation {
     display: flex;
-    gap: 25px;
+    max-width: 100%;
+    width: 375px;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     border-radius: 24px;
     box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  section {
+    /* justify-content: space-between;
+    align-items: center;
+    text-align: center; */
+    background-color: #f8f8f8;
+    padding: 12px 20px 15px 20px;
+    border-radius: 20px;
   }
   section span {
     justify-content: center;
     gap: 4px;
+  }
+  .plus {
+    display: flex;
+    background-color: #29b24e;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 4px;
   }
 }
