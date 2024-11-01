@@ -504,7 +504,7 @@ footer h6 {
 
 @media (width < 768px) {
   .container {
-    max-width: 335px;
+    max-width: 375px;
     width: 100%;
   }
   header nav {
@@ -624,5 +624,59 @@ footer h6 {
     align-items: center;
     margin-top: -30px;
     margin-bottom: 4px;
+  }
+
+  /* internal */
+  .first {
+    width: 100%;
+    max-width: 375px;
+    font-size: 18px;
+  }
+  .first img {
+    padding: 20px 20px 40px 20px;
+  }
+  .second h2 {
+    width: 100%;
+    max-width: 320px;
+    font-size: 18px;
+    padding-left: 0px;
+  }
+  .kiambu {
+    font-size: 12px;
+  }
+  .lorem {
+    width: 300px;
+    font-size: 12px;
+  }
+  .rooms span {
+    font-size: 12px;
+  }
+  .rooms {
+    width: 335px;
+    gap: 20px;
+  }
+  .lastl {
+    display: block;
+  }
+  .green {
+    width: 284px;
+    display: block;
+  }
+  .cont {
+    display: block;
+  }
+  .white {
+    display: block;
+    width: 254px;
+    margin-top: 5px;
+  }
+  .thirdline {
+    display: none;
+  }
+  .second {
+    height: auto;
+  }
+  .logoo {
+    display: none;
   }
 }
