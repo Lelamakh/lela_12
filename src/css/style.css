@@ -105,7 +105,7 @@ select {
   border: 1px solid #0d9ca436;
 }
 input[type="checkbox"] {
-  accent-color: green;
+  color: green;
 }
 label {
   display: block;
