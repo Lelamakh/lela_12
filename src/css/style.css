@@ -680,16 +680,17 @@ footer h6 {
     display: block;
   }
   .green {
-    width: 284px;
     display: block;
   }
   .cont {
     display: block;
+    margin: 0 auto;
   }
+
   .white {
     display: block;
-    width: 254px;
     margin-top: 5px;
+    margin-left: 0;
   }
   .thirdline {
     display: none;
