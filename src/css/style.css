@@ -103,6 +103,7 @@ select {
   max-width: 331px;
   height: 48px;
   border: 1px solid #0d9ca436;
+  border-radius: 10px;
 }
 input[type="checkbox"] {
   color: green;
@@ -235,7 +236,7 @@ article {
   font-weight: 500;
   font-family: "Poppins";
   font-style: normal;
-  margin: 28px;
+  margin-top: 16px;
 }
 .namanga {
   opacity: 50%;
@@ -344,7 +345,7 @@ footer h6 {
   justify-content: space-between;
   object-fit: cover;
 }
-.first img {
+.first1 img {
   max-width: 810px;
   width: 100%;
   height: 732px;
@@ -528,9 +529,7 @@ footer h6 {
   footer h6 {
     display: none;
   }
-  footer li {
-    gap: 18px;
-  }
+
   .background {
     width: 100%;
     max-width: 335px;
@@ -635,19 +634,33 @@ footer h6 {
   }
 
   /* internal */
+
   .first {
     width: 100%;
     max-width: 375px;
     font-size: 18px;
   }
-  .first img {
-    padding: 0px 20px 40px 20px;
+  .first1 img {
+    width: 100%;
+    height: 316px;
+    max-width: 375px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .second {
+    width: 100%;
+    max-width: 375px;
+    height: 732px;
   }
   .second h2 {
     width: 100%;
     max-width: 320px;
     font-size: 18px;
     padding-left: 0px;
+  }
+  .parcel {
+    font-size: 14px;
+    margin-top: 16px;
   }
   .kiambu {
     font-size: 12px;
