@@ -106,7 +106,7 @@ select {
   border-radius: 10px;
 }
 input[type="checkbox"] {
-  color: green;
+  accent-color: green;
 }
 label {
   display: block;
